@@ -25,9 +25,9 @@ Prof. Becker's office hours:
 - Thursdays 2:30 - 3:30 PM.
 - Fridays 2:30 - 4:30 PM.
 
-Tyler Jensen's office hours:
-- Starting August 28th: Thursdays 1:10 - 3:00 PM.
-- Starting September 5th: Fridays 10:00 - 11:00 AM.
+Tyler Jensen's office hours (currently in Stadium 150, this will change mid September):
+- Thursdays 9:30 - 10:00 AM and 1:15 - 2:30 PM.
+- Fridays 10:00 - 11:00 AM.
 
 ## Course Information
 See the separate [syllabus document](syllabus.md).
