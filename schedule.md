@@ -22,32 +22,39 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Debrief from lab
   - [Calc Review](Notes/Ch1_CalcReview.pdf) and [Floating Point Numbers](Notes/Ch1_FloatingPoint.pdf). 
   - Refs: ch 1.1 and 1.2 and other sources. 
-  - Demos: [Ch1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb)  
 
 #### Week 2, Chapter 1 (floating pt numbers, scientific computing)
 
 - Mon, Aug 25
-  - [Conditioning](Notes/Ch1_ConditionNumber.pdf) and [Stability](Notes/Ch1_Stability.pdf) and [Big-O notation](Notes/Ch1_BigO_notation.pdf). 
+  - Finish [Floating Point Numbers](Notes/Ch1_FloatingPoint.pdf)
+  - [Conditioning](Notes/Ch1_ConditionNumber.pdf) and start [Stability](Notes/Ch1_Stability.pdf) 
   - Refs: mostly from Driscoll and Braun, some ch 1.3. 
-  - Demos: [Ch1_DataTypes](Demos/Ch1_DataTypes.ipynb) and [Ch1_ExponentialSummation](Demos/Ch1_ExponentialSummation.ipynb)
+  - Demos: [Ch1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb), [Ch1_DataTypes](Demos/Ch1_DataTypes.ipynb). Didn't have time to cover [Ch1_ExponentialSummation](Demos/Ch1_ExponentialSummation.ipynb)
 - Wed, Aug 27
-  - [Polynomials and Horner's Rule](Notes/Ch1_PolynomiallConditioning_HornersRule.pdf), partly from Driscoll and Braun; and [Rates of convergence](Notes/Ch1_ConvergenceRates.pdf), from ch 2.4. 
-  - Demos: [Ch1_Stability_simple](Demos/Ch1_Stability_simple.ipynb) demo (evaluating a quadratic, and relative error) and [Ch1_QuadraticFormula](Demos/Ch1_QuadraticFormula.ipynb) demo (quadratic root finding). 
-  - Optional: [Ch1_Extra_Conditioning](Demos/Ch1_Extra_Conditioning.ipynb) is a summary of ch 1 material from Jed Brown's course; and extra demo on [Ch1_RatesOfConvergence](Demos/Ch1_RatesOfConvergence.ipynb)
-- Thurs, Aug 28, Lab 2
-  - Scientific workflow, git, debugging...
+  - Finish [Stability](Notes/Ch1_Stability.pdf) and [Big-O notation](Notes/Ch1_BigO_notation.pdf).
+  - Demos: [Ch1_Stability_simple](Demos/Ch1_Stability_simple.ipynb) demo (evaluating a quadratic, and relative error) and . 
+  - Optional: [Ch1_Extra_Conditioning](Demos/Ch1_Extra_Conditioning.ipynb) is a summary of ch 1 material from Jed Brown's course (didn't cover in class)
+- Thurs, Aug 28, [Lab 2](Labs/Lab02_workflow.ipynb)
+  - Scientific workflow, git; .py vs .ipynb files
 - Fri, Aug 29
   - Debrief from lab
-  - TBD, ch 1 stuff
+  - [Rates of convergence](Notes/Ch1_ConvergenceRates.pdf), from ch 2.4.
+  - Demos: [Ch1_QuadraticFormula](Demos/Ch1_QuadraticFormula.ipynb) demo (quadratic root finding), [Ch1_RatesOfConvergence](Demos/Ch1_RatesOfConvergence.ipynb)
 
 #### Week 3, Chapter 2 (1D root-finding)
 
 - Mon, Sep 1.  No class (labor day)
 - Wed, Sep 3 
-  - Automatic Differentiation
-- Thu, Sep 4, Lab 3
-  - TBD (Auto Diff?)
+  - [Condition number of a quadratic root-finding problem, and Horner's Rule](Notes/Ch1_PolynomiallConditioning_HornersRule.pdf), partly from Driscoll and Braun; and  
+  [Memory on a computer; sparse matrix format; HDF5](Notes/Ch1_MemorySparseMatricesEtc.pdf)
+- Thu, Sep 4, [Lab 3](Labs/Lab03_DebuggingAndProfiling.ipynb)
+  - Debugging and Profiling code
 - Fri, Sep 5 
+  - Finish [Memory on a computer; sparse matrix format; HDF5](Notes/Ch1_MemorySparseMatricesEtc.pdf)
+  - [Intro to multivariate calculus](Notes/Ch1_IntroMultivariateCalc.pdf)
+  - Start Automatic Differentiation, if time
+  - Demos: [Sparse Matrices](Demos/Ch1_SparseMatrices.ipynb)
+- For later...
   - [Intro to scalar root-finding](Notes/Ch2_IntroRootfinding.pdf), [Intro to scalar optimization](Notes/Ch2_IntroOptimization.pdf), [Condition number of root-finding](Notes/Ch2_AnalysisRootFindingConditionNumber.pdf), [multiple roots](Notes/Ch2_MultipleRoots.pdf)
   - Refs: some from misc sources or Driscoll and Braun
 
