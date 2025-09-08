@@ -54,12 +54,16 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - [Intro to multivariate calculus](Notes/Ch1_IntroMultivariateCalc.pdf)
   - Start Automatic Differentiation, if time
   - Demos: [Sparse Matrices](Demos/Ch1_SparseMatrices.ipynb)
-- For later...
-  - [Intro to scalar root-finding](Notes/Ch2_IntroRootfinding.pdf), [Intro to scalar optimization](Notes/Ch2_IntroOptimization.pdf), [Condition number of root-finding](Notes/Ch2_AnalysisRootFindingConditionNumber.pdf), [multiple roots](Notes/Ch2_MultipleRoots.pdf)
-  - Refs: some from misc sources or Driscoll and Braun
 
 #### Week 4, more Chapter 2 (1D root-finding)
 
+- Mon, Sep 8 
+  - Finish [Intro to multivariate calculus](Notes/Ch1_IntroMultivariateCalc.pdf)
+  - [Automatic Differentiation](Notes/Ch1_AutomaticDifferentiation.pdf)
+
+- For later
+  - [Intro to scalar root-finding](Notes/Ch2_IntroRootfinding.pdf), [Intro to scalar optimization](Notes/Ch2_IntroOptimization.pdf), [Condition number of root-finding](Notes/Ch2_AnalysisRootFindingConditionNumber.pdf), [multiple roots](Notes/Ch2_MultipleRoots.pdf)
+  - Refs: some from misc sources or Driscoll and Braun
 - Mon, Sep 8 
   - [Bisection Method](Notes/Ch2_BisectionMainIdea.pdf), from ch 2.1
   - Demo: [Ch2_Intersection_GraphingCalculator.ipynb](Demos/Ch2_Intersection_GraphingCalculator.ipynb)
@@ -68,7 +72,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Demo: [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb)
   - Demo: [HowToCheckYourAnswerUsingExtendedPrecision.ipynb](Demos/HowToCheckYourAnswerUsingExtendedPrecision.ipynb) or [HowToCheckYourAnswerUsingExtendedPrecision.m](Demos/HowToCheckYourAnswerUsingExtendedPrecision.m) (Matlab)
 - Thu, Sep 11, Lab 4
-  - TBD, probably root-finding
+  - TBD, probably Auto Diff, or root-finding
 - Fri, Sep 12 
   - Debrief from lab
   - [Newton's Method](Notes/Ch2_NewtonsMethod.pdf), from ch 2.3
