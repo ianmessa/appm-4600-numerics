@@ -4,8 +4,8 @@ Undergraduate numerical analysis, first semester, APPM 4650. University of Color
 Most of the homework assignments are here, but homework **solutions** are on Canvas
 
 - [HW1](APPM4600_Fall25_HW01.pdf) due Sat Aug 30 at midnight on Gradescope. Topics: stability, cancellation, convergence rate, big-O notation.
-- [HW2](APPM4600_Fall25_HW02.pdf) due Fri Sep 6 at midnight on Gradescope. Topics: convergence rates and big-O notation, Horner's rule, and warmup for root-finding.
-- [HW3](APPM4600_Fall25_HW03.pdf) due Fri Sep 13 at midnight on Gradescope. Topics: Calc III review, Holder's inequality, Lipschitz continuity, global optimization
+- [HW2](APPM4600_Fall25_HW02.pdf) due Fri Sep 5 at midnight on Gradescope. Topics: convergence rates and big-O notation, Horner's rule, and warmup for root-finding.
+- [HW3](APPM4600_Fall25_HW03.pdf) due Fri Sep 12 at midnight on Gradescope. Topics: Calc III review, Holder's inequality, Lipschitz continuity, global optimization
 
 ## FAQ
 What should HW submissions look like?  If it involves code and/or plots, see our [submission_guidelines](submission_guidelines.md)
