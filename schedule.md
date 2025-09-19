@@ -52,52 +52,57 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Fri, Sep 5 
   - Finish [Memory on a computer; sparse matrix format; HDF5](Notes/Ch1_MemorySparseMatricesEtc.pdf)
   - [Intro to multivariate calculus](Notes/Ch1_IntroMultivariateCalc.pdf)
-  - Start Automatic Differentiation, if time
   - Demos: [Sparse Matrices](Demos/Ch1_SparseMatrices.ipynb)
 
 #### Week 4, more Chapter 2 (1D root-finding)
 
 - Mon, Sep 8 
   - Finish [Intro to multivariate calculus](Notes/Ch1_IntroMultivariateCalc.pdf)
-  - [Automatic Differentiation](Notes/Ch1_AutomaticDifferentiation.pdf)
-
-- For later
-  - [Intro to scalar root-finding](Notes/Ch2_IntroRootfinding.pdf), [Intro to scalar optimization](Notes/Ch2_IntroOptimization.pdf), [Condition number of root-finding](Notes/Ch2_AnalysisRootFindingConditionNumber.pdf), [multiple roots](Notes/Ch2_MultipleRoots.pdf)
-  - Refs: some from misc sources or Driscoll and Braun
-- Mon, Sep 8 
-  - [Bisection Method](Notes/Ch2_BisectionMainIdea.pdf), from ch 2.1
-  - Demo: [Ch2_Intersection_GraphingCalculator.ipynb](Demos/Ch2_Intersection_GraphingCalculator.ipynb)
+  - Start [Automatic Differentiation](Notes/Ch1_AutomaticDifferentiation.pdf)
 - Wed, Sep 10 
-  - [Fixed Point Iteration](Notes/Ch2_FixedPointIteration.pdf), from ch 2.2
-  - Demo: [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb)
-  - Demo: [HowToCheckYourAnswerUsingExtendedPrecision.ipynb](Demos/HowToCheckYourAnswerUsingExtendedPrecision.ipynb) or [HowToCheckYourAnswerUsingExtendedPrecision.m](Demos/HowToCheckYourAnswerUsingExtendedPrecision.m) (Matlab)
+  - Finish [Automatic Differentiation](Notes/Ch1_AutomaticDifferentiation.pdf)
+  - Discussed computational complexity of multiplying two $n\times n$ square matrices (and brief mention of Strassen)
+  - Demo: [AutoDiff](Demos/Ch1_AutoDiff.ipynb) with both PyTorch and JAX
 - Thu, Sep 11, Lab 4
-  - TBD, probably Auto Diff, or root-finding
+  - [Lab 4: Automatic Differentiation](Labs/Lab04_AutoDiff.ipynb)
 - Fri, Sep 12 
   - Debrief from lab
-  - [Newton's Method](Notes/Ch2_NewtonsMethod.pdf), from ch 2.3
-  - Demo: [Ch2_FixedPointPlots.ipynb](Demos/Ch2_FixedPointPlots.ipynb)  which uses a nice [geogebra online cobweb plotting app](https://www.geogebra.org/m/uvsfvNDt)
+  - [Intro to scalar root-finding](Notes/Ch2_IntroRootfinding.pdf)
+  - [Intro to scalar optimization](Notes/Ch2_IntroOptimization.pdf)
+  - [Condition number of root-finding](Notes/Ch2_AnalysisRootFindingConditionNumber.pdf)
 
 #### Week 5, more Chapter 2 (1D root-finding)
 - Mon, Sep 15 
-  - [Newton's Method Variants (secant method, etc.)](Notes/Ch2_NewtonsMethodVariants.pdf)
-  - Demo: [Ch2_NewtonsMethod.ipynb](Demos/Ch2_NewtonsMethod.ipynb)
+  - [multiple roots](Notes/Ch2_MultipleRoots.pdf)
+  - [Bisection Method](Notes/Ch2_BisectionMainIdea.pdf), from ch 2.1
+  - Start [Fixed Point Iteration](Notes/Ch2_FixedPointIteration.pdf), from ch 2.2.
+  - Demo: started [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb)
 - Wed, Sep 17 
-  - [Aitken Extrapolation](Notes/Ch2_AitkenExtrapolation.pdf) and [Zeros of Polynomials and Muller's Method](Notes/Ch2_ZerosPolynomialMullers.pdf), from ch 2.5 and 2.6
-    - Demo: [Ch2_AitkenExtrapolation.ipynb](Demos/Ch2_AitkenExtrapolation.ipynb)
-  - or... me might skip some of those topics (TBD)
+  - Brief mention of Newton's method, since we use it in the lab. Convergence will be on Friday Sept 19
+  - Finish [Fixed Point Iteration](Notes/Ch2_FixedPointIteration.pdf), from ch 2.2. Includes convergence analysis / contraction-mapping-theorem (aka Banach fixed point theorem)
 - Thu, Sep 18, Lab 5
-  - TBD, probably root-finding, and/or exploring convergence rates
+  - [Lab 5: Newton's method and fixed-point iterations](Labs/Lab05_FixedPt_RootFinding.ipynb)
 - Fri, Sep 19 
   - Debrief from lab
-  - TBD
+  - [Newton's Method](Notes/Ch2_NewtonsMethod.pdf), from ch 2.3
+  - [Newton's Method Variants (secant method, etc.)](Notes/Ch2_NewtonsMethodVariants.pdf)
+  - Demo: finish [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb)
+- Things we're skipping from Ch 2 (*not* on exam, but read if you're interested):
+  - Demos
+    - [Ch2_Intersection_GraphingCalculator.ipynb](Demos/Ch2_Intersection_GraphingCalculator.ipynb)
+    - [Ch2_FixedPointPlots.ipynb](Demos/Ch2_FixedPointPlots.ipynb)  which uses a nice [geogebra online cobweb plotting app](https://www.geogebra.org/m/uvsfvNDt)
+    - [Ch2_NewtonsMethod.ipynb](Demos/Ch2_NewtonsMethod.ipynb)
+    - [HowToCheckYourAnswerUsingExtendedPrecision.ipynb](Demos/HowToCheckYourAnswerUsingExtendedPrecision.ipynb) (Python) or [HowToCheckYourAnswerUsingExtendedPrecision.m](Demos/HowToCheckYourAnswerUsingExtendedPrecision.m) (Matlab)
+  - [Aitken Extrapolation](Notes/Ch2_AitkenExtrapolation.pdf) and [Zeros of Polynomials and Muller's Method](Notes/Ch2_ZerosPolynomialMullers.pdf), from ch 2.5 and 2.6
+    - Demo: [Ch2_AitkenExtrapolation.ipynb](Demos/Ch2_AitkenExtrapolation.ipynb)
+
 #### Week 6, Chapter 10 (nonlinear systems of equations)
 - Mon, Sep 22 
-  - Ch 10.1, multivariate fixed pt equations
+  - Ch 10.1, [multivariate fixed pt equations and the contraction mapping theorem](Notes/Ch10_ContractionMappingThm.pdf)
 - Wed, Sep 24 
   - Ch 10.2, Newton's method for systems
 - Thu, Sep 25, Lab 6
-  - TBD, probably multivariate systems of equations
+  - TBD, probably multivariate systems of equations and GNSS/GPS
 - Fri, Sep 26 
   - Debrief from lab
   - Ch 10.2
@@ -110,7 +115,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - TBD, probably optimization, local vs global minimizers, or compare 0th vs 1st vs 2nd order methods
 - Fri, Oct 3 
   - Debrief from lab
-  - Ch 10.4, Steepest-descent (aka Gradient-descent)
+  - Ch 10.4, Steepest-descent (aka Gradient-descent), differences/similarities between root-finding and optimization
 #### Week 8, Chapter 3 (interpolation)
 - Mon, Oct 6 
   - [Intro to Interpolation](Notes/Ch3_IntroInterpolation.pdf) and [Lagrange interpolation](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf), from ch 3.1
