@@ -7,6 +7,7 @@ Most of the homework assignments are here, but homework **solutions** are on Can
 - [HW2](APPM4600_Fall25_HW02.pdf) due Fri Sep 5 at midnight on Gradescope. Topics: convergence rates and big-O notation, Horner's rule, and warmup for root-finding.
 - [HW3](APPM4600_Fall25_HW03.pdf) due Fri Sep 12 at midnight on Gradescope. Topics: Calc III review, Holder's inequality, Lipschitz continuity, global optimization
 - [HW4](APPM4600_Fall25_HW04.pdf) due Fri Sep 19 at midnight on Gradescope. Topics: root finding, fixed point theorems, contraction mapping theorem, cobweb plots, scalar optimization.
+- [HW5](APPM4600_Fall25_HW05.pdf) due Fri Sep 26 at midnight on Gradescope. Topics: contraction mapping theorem, sparse matrices, linear algebra and least-squares review.
 
 ## FAQ
 What should HW submissions look like?  If it involves code and/or plots, see our [submission_guidelines](submission_guidelines.md)
