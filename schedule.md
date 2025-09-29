@@ -100,22 +100,28 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Mon, Sep 22 
   - Ch 10.1, [multivariate fixed pt equations and the contraction mapping theorem](Notes/Ch10_ContractionMappingThm.pdf)
 - Wed, Sep 24 
-  - Ch 10.2, Newton's method for systems
+  - Finish example (as in-class exercise, on $g(x)=x+e^{-x}$) from [Fixed Point Iteration](Notes/Ch2_FixedPointIteration.pdf)
+  - [Ch 10.2, Newton's method for systems](Notes/Ch10_NewtonForSystems.pdf)
+  - Demo: [Ch10_NewtonForSystems.ipynb](Demos/Ch10_NewtonForSystems.ipynb) which also is an example of using JAX for the AutoDiff
 - Thu, Sep 25, Lab 6
-  - TBD, probably multivariate systems of equations and GNSS/GPS
+  - [Lab 6: multivariate systems of equations and GNSS/GPS](Lab06_GPS.ipynb)
 - Fri, Sep 26 
   - Debrief from lab
-  - Ch 10.2
+
+  - [Example of multivariate contraction mapping theorem](Notes/Ch10_ContractionMappingThm_example.pdf)
 #### Week 7, Chapter 10 (nonlinear systems of equations)
 - Mon, Sep 29 
-  - Ch 10.3, Quasi-Newton methods
+  - [Linear algebra: how to think about matrix multiplication](Notes/Ch10_LinearAlgebraSupplement-MatrixMultiplication.pdf)
+  - [Linear algebra: Sherman-Morrison-Woodbury](Ch10_LinearAlgebraSupplement-Sherman-Morrison.pdf) (as in-class exercise)
+  - Start [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf) (see 2.3 notes for more details on the sectant method, i.e., [Newton's Method Variants (secant method, etc.)](Notes/Ch2_NewtonsMethodVariants.pdf))
 - Wed, Oct 1 
-  - Ch 10.3, Quasi-Newton methods
+  - [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf)
+  - Optimization problems; Ch 10.4, Steepest-descent (aka Gradient-descent), differences/similarities between root-finding and optimization; pros-cons of different methopds
 - Thu, Oct 2, Lab 7
   - TBD, probably optimization, local vs global minimizers, or compare 0th vs 1st vs 2nd order methods
 - Fri, Oct 3 
   - Debrief from lab
-  - Ch 10.4, Steepest-descent (aka Gradient-descent), differences/similarities between root-finding and optimization
+  - [Non-linear least square, Gauss-Newton, Levenberg-Marquardt](Notes/Ch10_NonlinearLeastSquares_GaussNewton.pdf)
 #### Week 8, Chapter 3 (interpolation)
 - Mon, Oct 6 
   - [Intro to Interpolation](Notes/Ch3_IntroInterpolation.pdf) and [Lagrange interpolation](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf), from ch 3.1
