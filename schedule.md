@@ -115,8 +115,9 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - [Linear algebra: Sherman-Morrison-Woodbury](Ch10_LinearAlgebraSupplement-Sherman-Morrison.pdf) (as in-class exercise)
   - Start [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf) (see 2.3 notes for more details on the sectant method, i.e., [Newton's Method Variants (secant method, etc.)](Notes/Ch2_NewtonsMethodVariants.pdf))
 - Wed, Oct 1 
-  - [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf)
-  - Optimization problems; Ch 10.4, Steepest-descent (aka Gradient-descent), differences/similarities between root-finding and optimization; pros-cons of different methopds
+  - Finish [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf)
+  - [Optimization problems; Ch 10.4, Steepest-descent (aka Gradient-descent)](Ch10_SteepestDescent.pdf), differences/similarities between root-finding and optimization; pros-cons of different methods
+  - Demo: [Gradient descent vs Newton on nonconvex problem in 2D](Demos/Ch10_nonconvex_example_2D.ipynb)
 - Thu, Oct 2, Lab 7
   - TBD, probably optimization, local vs global minimizers, or compare 0th vs 1st vs 2nd order methods
 - Fri, Oct 3 
