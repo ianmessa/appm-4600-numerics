@@ -117,12 +117,13 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Wed, Oct 1 
   - Finish [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf)
   - [Optimization problems; Ch 10.4, Steepest-descent (aka Gradient-descent)](Ch10_SteepestDescent.pdf), differences/similarities between root-finding and optimization; pros-cons of different methods
-  - Demo: [Gradient descent vs Newton on nonconvex problem in 2D](Demos/Ch10_nonconvex_example_2D.ipynb)
 - Thu, Oct 2, Lab 7
-  - TBD, probably optimization, local vs global minimizers, or compare 0th vs 1st vs 2nd order methods
+  - [Lab 7: gradient descent and Newton's method for minimization](Labs/Lab07_gradientDescent.ipynb)2nd order methods
 - Fri, Oct 3 
   - Debrief from lab
+  - Finish 10.4
   - [Non-linear least square, Gauss-Newton, Levenberg-Marquardt](Notes/Ch10_NonlinearLeastSquares_GaussNewton.pdf)
+  - Demo: [Gradient descent vs Newton on nonconvex problem in 2D](Demos/Ch10_nonconvex_example_2D.ipynb)
 #### Week 8, Chapter 3 (interpolation)
 - Mon, Oct 6 
   - [Intro to Interpolation](Notes/Ch3_IntroInterpolation.pdf) and [Lagrange interpolation](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf), from ch 3.1
